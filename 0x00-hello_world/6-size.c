@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-char Char_type;
-int Int_type;
-long int Long_int_type;
-long long int Long_long_int_type;
-float Float_type;
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(Char_type));
-printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(Int_type));
-printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(Long_int_type));
-printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(Long_long_int_type));
-printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(Float_type));
+char a;
+int b;
+long int c;
+long long int d;
+float e;
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 return (0);
 }
