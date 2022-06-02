@@ -7,7 +7,7 @@
 int main(void)
 
 {
-char iron[] = "\"Programing is like building a multilingual puzzle" ;
+char iron[] = "\"Programming is like building a multilingual puzzle" ;
 
 	puts(iron);
 	
