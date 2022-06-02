@@ -5,12 +5,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-char iron[] = "\"Programming is like building a multilingual puzzle" ;
-
-	puts(iron);
-	
-	return 0 ;
-
+char iron[] = "\"Programming is like building a multilingual puzzle";
+puts(iron);
+return (0);
 }
