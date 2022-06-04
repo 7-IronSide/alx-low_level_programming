@@ -14,8 +14,8 @@ c = '\n';
 	for (i = 'a'; i <= 'z' ; i++)
 	{
 	putchar(i);
-	putchar(c);
 	}
+	putchar(c);
 return (0);
 }
 
