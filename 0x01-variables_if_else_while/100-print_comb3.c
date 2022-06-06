@@ -2,22 +2,27 @@
 /**
  * main - Entry point
  *
- * Return always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
 {
 int i;
-for (i = 0; i < 90; i++ )
+int j;
+for (i = '0'; i <= '9'; i++)
 {
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-if (i < 89)
+for (j = 0; j <= '9'; j++)
+if (i < j)
+{
+putchar(i);
+putchar(j);
+if (i < '8' || j < '9')
 {
 putchar(',');
 putchar(' ');
 }
 }
+}
 putchar('\n');
-return (0);
+return (1);
 }
