@@ -15,6 +15,9 @@ return (0);
 }
 /**
  * new_putchar - Prints the value of c
+ *
+ *@c: The value prints
+ * Return: 0
  */
 char new_putchar(char c[])
 {
