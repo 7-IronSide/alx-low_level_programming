@@ -9,11 +9,11 @@
 
 int main(void)
 {
-_putchar("_putchar");
-_putchar("\n");
+new_putchar("_putchar");
+new_putchar("\n");
 return (0);
 }
-char _putchar(char c[])
+char new_putchar(char c[])
 {
 printf("%s",c);
 return (0);
