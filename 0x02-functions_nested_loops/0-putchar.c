@@ -7,7 +7,7 @@
  * Return: Always 0 (success)
  */
 /**
- * new_putchar - Prints "_putchar" 
+ * new_putchar - Prints the value of c 
  */
 int main(void)
 {
