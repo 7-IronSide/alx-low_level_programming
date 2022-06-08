@@ -12,12 +12,12 @@ hour = 0;
 while (hour < 24)
 {
 minute = 0;
-while (minutes < 60)
+while (minute < 60)
 {
 _putcchar((hour / 10) + '0');
 _putchar((hour % 10) + '0');
 _putchar(':');
-_putcchar((minute / 10) + '0');
+_putchar((minute / 10) + '0');
 _putchar((minute % 10) + '0');
 _putchar('\n');
 minute++;
