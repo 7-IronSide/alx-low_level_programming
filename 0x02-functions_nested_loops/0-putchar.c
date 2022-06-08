@@ -9,17 +9,17 @@
 
 int main(void)
 {
-new_putchar("_putchar");
-new_putchar("\n");
+_putchar("_putchar\n");
 return (0);
 }
+
 /**
- * new_putchar - Prints the value of c
+ * _putchar print the value of c
  *
- *@c: The value prints
+ * @c: The value print
  * Return: 0
  */
-char new_putchar(char c[])
+char _putchar(char c[])
 {
 printf("%s", c);
 return (0);
