@@ -7,7 +7,7 @@
  * Return: Always 0 (success)
  */
 /**
- * new_putchar - Entry point
+ * new_putchar 
  *
  * return: 0
  */
