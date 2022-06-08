@@ -7,7 +7,7 @@
  * Return: +1 if is positive, 0 if is 0 and -1 if is negative
  */
 
-int _iprint_sign(int c)
+int print_sign(int c)
 {
 if (c > 0)
 {
