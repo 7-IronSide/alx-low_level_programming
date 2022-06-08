@@ -1,26 +1,18 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
- * main - Entry point
+ * main - Prints the word _putchar
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-_putchar("_putchar\n");
-return (0);
-}
-
-/**
- * _putchar print the value of c
- *
- * @c: The value print
- * Return: 0
- */
-char _putchar(char c[])
+char word[8] = "_putchar";
+int i;
+for (i = 0; i <= 7; i++)
 {
-printf("%s", c);
+putchar(word[i]);
+}
+putchar('\n');
 return (0);
 }
