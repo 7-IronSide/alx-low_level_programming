@@ -4,11 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
- */
-
-/**
- * new_putchar - Prints the value of c
+ * Return: Always 0 
  */
 
 int main(void)
