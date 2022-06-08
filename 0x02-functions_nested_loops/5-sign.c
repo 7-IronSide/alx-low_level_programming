@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_sign - print the signe of a number
+ * print_sign - print the signe of a number
  *
  * @c: number to check
  *
@@ -14,7 +14,7 @@ if (c > 0)
 _putchar('+');
 return (1);
 }
-else if ( c == 0)
+else if (c == 0)
 {
 _putchar('0');
 return (0);
@@ -22,6 +22,6 @@ return (0);
 else
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
 }
