@@ -15,6 +15,6 @@ return (0);
 }
 char new_putchar(char c[])
 {
-printf("%s",c);
+printf("%s", c);
 return (0);
 }
