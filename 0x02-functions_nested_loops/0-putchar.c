@@ -6,7 +6,11 @@
  *
  * Return: Always 0 (success)
  */
-
+/**
+ * new_putchar - a fuction that prints putchar
+ *
+ * return: 0
+ */
 int main(void)
 {
 new_putchar("_putchar");
