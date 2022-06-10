@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - check for a digit 
+ * print_square - check for a digit
  *
  * @n: variable
  *
