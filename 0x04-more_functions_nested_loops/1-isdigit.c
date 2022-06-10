@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _is a digit - checks if a character is digit
- * @c: carrier variable
- * Return 1 if true, 0 if false
+ * _isdigit - checks if character is digit
+ *
+ * @c: variable
+ *
+ * Return: 1 if true, 0 if false
  */
 int _isdigit(int c)
 {
