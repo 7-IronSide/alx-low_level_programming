@@ -2,7 +2,9 @@
 
 /**
  * _isuper - checks is a character uppercase
+ *
  * @c: carrier integer variable
+ *
  * Return: 1 if true, 0 if false
  */
 
