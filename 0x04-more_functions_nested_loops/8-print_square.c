@@ -3,7 +3,7 @@
 /**
  * print_square - check for a digit 
  *
- * @n: number of _ to be printed
+ * @n: variable
  *
  * Return: void
  */
