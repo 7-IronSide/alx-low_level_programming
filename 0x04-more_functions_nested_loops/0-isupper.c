@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isuper - checks is a character uppercase
+ * _isupper - checks is a character is upercase
  *
- * @c: carrier integer variable
+ * @c: carrier variable
  *
  * Return: 1 if true, 0 if false
  */
