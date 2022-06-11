@@ -3,6 +3,8 @@
 /**
  * main - Fizz Buzz code
  *
+ * @i: variable
+ *
  * Return: void
  */
 
