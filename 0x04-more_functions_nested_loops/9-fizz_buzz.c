@@ -3,8 +3,6 @@
 /**
  * main - Fizz Buzz code
  *
- * @i: variable
- *
  * Return: void
  */
 
@@ -12,9 +10,9 @@ int main(void)
 {
 	int i = 1;
 	
-	while ( i <= 100)
+	while (i <= 100)
 	{
-		if ( i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
