@@ -3,6 +3,8 @@
 /**
  * main - Fizz buzz code
  *
+ *Description: prints FizzBuzz
+ *
  * Return: void
  */
 
