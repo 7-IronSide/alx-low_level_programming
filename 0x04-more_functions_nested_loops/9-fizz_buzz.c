@@ -3,7 +3,7 @@
 /**
  * main - Fizz Buzz code
  *
- * Return:void
+ * Return: void
  */
 
 int main(void)
