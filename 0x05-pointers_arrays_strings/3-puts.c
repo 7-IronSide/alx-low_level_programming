@@ -4,7 +4,7 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout
  *
- * @str: variable 
+ * @str: variable
  */
 
 void _puts(char *str)
