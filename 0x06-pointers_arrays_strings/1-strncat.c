@@ -5,11 +5,12 @@
  *
  * @dest: the string to be appended upon
  *
- * @dest: the destination string to be concatenate
+ * @src: the destination string to be concatenate
  *
  * @n:the number of bytes to be appended to dest
  *
  * Return: pointer to the resulting string dest
+ *
  */
 
 char *_strncat(char *dest, char *src, int n)
