@@ -18,11 +18,11 @@ entero = 0;
 
 for (i = 0; s1[i] != '\0'; i++)
 {
-    if (s1[i] - s2[i] != 0)
-    {
-        entero = s1[i] - s2[i];
-        break;
-    }
+if (s1[i] - s2[i] != 0)
+{
+entero = s1[i] - s2[i];
+break;
+}
 }
 if (entero == 0 && s1[i] == '\0')
 entero = s1[i] - s2[i];
