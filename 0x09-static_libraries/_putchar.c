@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _putchar - writes a caracter to stdout
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * @c: The caracter to print
+ *
+ * Return: 1 if success -1 otherwise
  */
 int _putchar(char c)
 {

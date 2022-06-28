@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if a character is digit
- * @c: carrier variable
+ * _isdigit - checks if character is digit
+ *
+ * @c: variable
+ *
  * Return: 1 if true, 0 if false
  */
 

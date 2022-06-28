@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _isupper - checks is a character is uppercase
- * @c: carrier integer variable
+ * _isupper - checks is a character is upercase
+ *
+ * @c: carrier variable
+ *
  * Return: 1 if true, 0 if false
  */
 
