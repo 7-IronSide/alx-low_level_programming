@@ -34,5 +34,5 @@ filler = mem;
 for (index = 0; index < (size * nmemb); index++)
 filler[index] = '\0';
 
-return (mem)
+return (mem);
 }
