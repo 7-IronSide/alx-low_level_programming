@@ -18,10 +18,17 @@ int main(int argc, char **argv)
 {
 unsigned long mul;
 int num1, num2;
+if (argc > 3)
+{
+exit(98);
+}
+else
+{
 if (argc != 3)
-{ 
+{
 printf("Error\n");
 exit(98);
+}
 }
 for (num1 = 1; num1 < argc; num1++)
 {
@@ -33,7 +40,6 @@ printf("Error\n");
 exit(98);
 }
 }
-
 }
 mul = atol(argv[1]) *  atol(argv[2]);
 printf("%lu\n", mul);
